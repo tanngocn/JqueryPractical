@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    width: 960px;
+    margin: auto;
+    font-size: 20px;
+    font-family: tahome;
+    color: gray;
+    line-height: 24px;
+}
+
+.anh {
+    width: 100%;
+    height: 700px;
+    background-image: url(images/5.jpg);
+    background-size: cover;
+}
+
+.noidung {
+    width: 100%;
+    height: 500px;
+}
+
+a {
+    text-decoration: none;
+    font-family: tahoma;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    padding: 36px 0px 20px 26px;
+    transition: 0.5s;
+}
+
+.header.bienhinh .menuphai a {
+    font-size: 12px;
+    padding-top: 27px;
+}
+
+.menuphai ul {
+    float: right;
+}
+
+li {
+    text-align: right;
+    float: left;
+    list-style: none;
+    font-size: 17px;
+}
+
+a.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: #d39525;
+    font-weight: 400;
+    padding: 30px 0px;
+    display: block;
+    font-family: 'Kaushan Script', cursive;
+    transition: 0.5s;
+}
+
+.header.bienhinh .logo {
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+header.bienhinh a.logo {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.phai {
+    float: right;
+    width: 50%;
+}
+
+.trai {
+    float: left;
+    width: 50%;
+}
+
+.cangiua {
+    width: 1170px;
+    margin: auto;
+    /* float: left; */
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #b84f4f00;
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    perspective: 500px;
+    transform-origin: 50% 50%;
+    transform: rotateX(0deg);
+}
+
+.header.bienhinh {
+    background-color: #000000d6;
+    height: 70px;
+    transform: rotateX(360deg);
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.khoitext {
+    font-size: 16px;
+    width: 1200px;
+    margin: auto;
+    color: gray;
+    font-family: segoe ui light;
+    line-height: 20px;
+}
+
+.khoi {
+    width: 260px;
+    height: 500px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+    opacity: 0;
+}
+
+.khoigd.hienra .khoi:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.khoigd.hienra .khoi:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.khoigd.hienra .khoi:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.khoigd.hienra .khoi:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.khoigd.hienra .khoi:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.khoigd.hienra .khoi:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.khoigd.hienra .khoi:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.khoigd.hienra .khoi:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.khoigd.hienra .khoi:nth-child(9) {
+    animation-delay: 0.9s;
+}
+
+.khoigd.hienra .khoi {
+    animation: dilen 1s forwards;
+}
+
+@keyframes dilen {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: segoe ui light;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.khoigd {
+    height: auto;
+    width: 900px;
+    margin: auto;
+}
+
+.khoigd {}

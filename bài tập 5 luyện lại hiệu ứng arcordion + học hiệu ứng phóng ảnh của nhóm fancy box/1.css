@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nd_khoi {
+    font-size: 14px;
+    color: gray;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.td_khoi img {
+    width: 25px;
+    height: 25px;
+    float: right;
+    transition: 0.5s;
+    margin-right: -100px;
+}
+
+.td_khoi.xanh img {
+    margin-top: 22px;
+    margin-right: 30px;
+    transform: rotate(180deg);
+}
+
+.td_khoi:hover img {
+    margin-right: 0;
+}
+
+h2.td_khoi {
+    margin-top: 20px;
+    font-size: 59px;
+    color: #333131;
+    font-weight: 400;
+    height: 70px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.td_khoi.xanh {
+    color: lightblue;
+}
+
+._1khoi {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.vaianh {
+    overflow: hidden;
+}
+
+img.anhnho {
+    width: 100px;
+    height: 100px;
+    float: left;
+    /* overflow: hidden; */
+}
+
+.noidung {
+    width: 70%;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+}
+
+body {
+    background-image: url(images/bgnoise_lg.jpg);
+}
+
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+/* font-family: 'Josefin Slab', serif; */

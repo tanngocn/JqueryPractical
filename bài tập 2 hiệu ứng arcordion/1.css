@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/bgnoise_lg.jpg");
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.hieuung {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.motkhoi h3 {
+    background-color: #2f85d0;
+    color: white;
+    padding: 10px 12px;
+}
+
+.motkhoi h3.xanh {
+    background-color: aqua;
+}
+
+.motkhoi h3.xanh:hover {
+    background: url(images/arrow_up.png) no-repeat 96% white;
+}
+
+p.ndmotkhoi {
+    padding: 10px 5px;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+}
+
+.motkhoi h3:hover {
+    background: url(images/arrow_down.png) no-repeat 96% white;
+    color: black;
+}

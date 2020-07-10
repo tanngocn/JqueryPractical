@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nut {
+    position: absolute;
+    bottom: 23%;
+    left: 19%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: lato;
+    background-color: white;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    color: #25e6bc;
+    opacity: 0;
+    animation: hiennut 1s forwards;
+    animation-delay: 7s;
+    cursor: pointer;
+}
+
+@keyframes hiennut {
+    0% {
+        opacity: 0;
+        left: 0%;
+    }
+    100% {
+        opacity: 1;
+        left: 19%;
+    }
+}
+
+.chuto {
+    position: absolute;
+    /* font-family: 'Pacifico', cursive; */
+    top: 36%;
+    left: 20%;
+    z-index: 3;
+    font-family: 'Pacifico', cursive;
+    font-size: 33px;
+    color: white;
+    font-style: italic;
+    animation: hienchu 1s forwards;
+    animation-delay: 6s;
+    opacity: 0;
+}
+
+@keyframes hienchu {
+    0% {
+        opacity: 0;
+        left: 0%;
+    }
+    100% {
+        opacity: 1;
+        left: 20%;
+    }
+}
+
+.cauvong {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    right: -18%;
+    z-index: 1;
+    opacity: 0;
+    animation: cauvongbay 1s forwards;
+    animation-delay: 5s;
+}
+
+@keyframes cauvongbay {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.traitim {
+    width: 437px;
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+    z-index: 1;
+    opacity: 0;
+    animation: timbay 1s forwards;
+    animation-delay: 4s;
+}
+
+@keyframes timbay {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bongbong {
+    position: absolute;
+    bottom: 0;
+    right: -32%;
+    z-index: 1;
+    width: 1000px;
+    height: 500px;
+    opacity: 0;
+    animation: bongbongbay 1s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes bongbongbay {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.nguoi {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    z-index: 2;
+    opacity: 0;
+    animation: nguoilen 1s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes nguoilen {
+    0% {
+        bottom: -10%;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+.may {
+    position: absolute;
+    bottom: -8%;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    background-image: url(images/s5.png);
+    height: 200px;
+    background-size: cover;
+    background-position-x: 59%;
+    animation: maybay 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes maybay {
+    0% {
+        bottom: -30%;
+    }
+    100% {
+        opacity: 1;
+        bottom: -8%;
+    }
+}
+
+.nen {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/nen.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    animation: hiennen 1s forwards;
+}
+
+@keyframes hiennen {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.slide {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}

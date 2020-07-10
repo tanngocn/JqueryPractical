@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nut {
+    font-family: lato;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 19%;
+    left: 24%;
+    z-index: 5;
+    background-color: #13BFB1;
+    padding: 12px 10px;
+    width: 182px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    animation: chuyennut 1s forwards;
+    animation-delay: 3.5s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+@keyframes chuyennut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.nutmau {
+    font-family: lato;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 19%;
+    left: 24%;
+    z-index: 6;
+    background-color: rgba(41, 75, 72, 0.24);
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    height: 22px;
+    opacity: 0;
+    width: 183px;
+    cursor: pointer;
+}
+
+.nutmau:hover {
+    animation: doimau 0.5s forwards;
+    transition: 4.5s;
+}
+
+@keyframes doimau {
+    0% {
+        width: 0px;
+    }
+    100% {
+        opacity: 1;
+        width: 182px;
+    }
+}
+
+.chunho {
+    position: absolute;
+    bottom: 30%;
+    z-index: 4;
+    font-size: 25px;
+    font-family: lato;
+    font-weight: 100;
+    animation: chuyenchunho 1s forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+@keyframes chuyenchunho {
+    0% {
+        left: 0%;
+    }
+    100% {
+        opacity: 1;
+        left: 14%;
+    }
+}
+
+.chuto {
+    position: absolute;
+    bottom: 41%;
+    left: 14%;
+    z-index: 3;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: lato;
+    animation: chuyenchuto 0.5s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+@keyframes chuyenchuto {
+    0% {
+        left: 0%;
+    }
+    100% {
+        opacity: 1;
+        left: 14%;
+    }
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.cogai img {
+    width: 430px;
+    height: 639px;
+    position: absolute;
+    bottom: -80%;
+    right: 10%;
+    z-index: 2;
+    animation-delay: 1s;
+    animation: hiencogai 2s forwards;
+}
+
+@keyframes hiencogai {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+.nen {
+    width: 100%;
+    background-image: url(images/2.jpg);
+    height: 900px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation: hiennen 1s forwards;
+}
+
+@keyframes hiennen {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

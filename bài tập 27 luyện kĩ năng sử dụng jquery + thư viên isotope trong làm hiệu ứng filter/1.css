@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.khoi:hover .ten_khoi {
+    opacity: 1;
+}
+
+.ten_khoi {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    z-index: 4;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: segoe ui light;
+    font-size: 18px;
+    color: #373535;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.vien_khoi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    width: 8%;
+    text-align: center;
+    border-bottom: 2px solid #321616;
+    height: 2px;
+    display: block;
+    margin-left: -4%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.khoi:hover .vien_khoi {
+    opacity: 1;
+}
+
+.td_khoi {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: segoe ui light;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.khoi:hover .td_khoi {
+    opacity: 1;
+}
+
+.nen {
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.khoi:hover .nen {
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    /* margin-bottom: 10px; */
+}
+
+img.layer1 {
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 250px;
+}
+
+.khoi {
+    width: 33%;
+    height: 250px;
+    /* float: left; */
+    position: relative;
+    /* margin-right: 3%; */
+    /* border: 1px solid; */
+    box-shadow: 1px 2px 6px;
+}
+
+h1.td_to {
+    text-align: center;
+    font-family: segoe ui light;
+    margin: 0;
+    text-transform: uppercase;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header a {
+    font-size: 20px;
+    font-family: segoe ui light;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(60, 60, 179);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.header a:hover {
+    color: green;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    display: inline;
+}

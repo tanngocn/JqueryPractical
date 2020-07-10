@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1.td_to {
+    text-align: center;
+    margin: 0;
+    font-family: segoe ui light;
+    font-size: 40px;
+    margin-bottom: 57px;
+    text-transform: uppercase;
+}
+
+header a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: segoe ui light;
+    background-color: pink;
+    padding: 2px 12px;
+    border-radius: 6px;
+}
+
+header li {
+    display: inline-block;
+    padding: 20px 14px;
+}
+
+header {
+    text-align: center;
+}
+
+header ul {
+    display: inline;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content ul li {
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}

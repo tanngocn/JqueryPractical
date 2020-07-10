@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nutslide {
+    margin-right: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.nutslide ul li {
+    background-color: #565451;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.nutslide li.xanh {
+    background-color: white;
+    border: 1px solid rgb(30, 134, 126);
+}
+
+.nutslide li:hover {
+    background-color: black;
+}
+
+.prev {
+    position: absolute;
+    top: 33%;
+    left: 0;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    top: 33%;
+    right: 0;
+    z-index: 4;
+    cursor: pointer;
+}
+
+._1slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+._1slide img {
+    width: 100%;
+    height: 650px;
+}
+
+._1slide.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* hieu ung di chuyen cua anhslide */
+
+._1slide.di-ra-ben-trai {
+    animation: di-ra-ben-trai 1s forwards;
+}
+
+._1slide.di-ra-ben-phai {
+    animation: di-ra-ben-phai 1s forwards;
+}
+
+._1slide.di-vao-ben-phai {
+    animation: di-vao-ben-phai 1s forwards;
+}
+
+._1slide.di-vao-ben-trai {
+    animation: di-vao-ben-trai 1s forwards;
+}
+
+@keyframes di-vao-ben-phai {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes di-vao-ben-trai {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes di-vao-ben-phai {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes di-ra-ben-trai {
+    0% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes di-ra-ben-phai {
+    0% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+
+/* end hieu ung di chuyen anh cua slide */
+
+.anhslide {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}

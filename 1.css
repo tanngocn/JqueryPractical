@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menutren ul li.active a {
+    background: #ecf0f1;
+    color: black;
+}
+
+div#so5 {
+    height: 900px;
+    overflow: hidden;
+    padding-top: 100px;
+    background-color: #1abc9c;
+}
+
+div#so4 {
+    height: 900px;
+    padding-top: 100px;
+    overflow: hidden;
+    background-color: #f1c40f;
+}
+
+div#so3 {
+    height: 900px;
+    padding-top: 100px;
+    overflow: hidden;
+    background: #ecf0f1;
+}
+
+div#so2 {
+    background-color: #e74c3c;
+    height: 900px;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+div#so1 {
+    height: 900px;
+    background-color: #3498db;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+h4.td {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 26px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menutren li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.menutren ul {
+    display: inline;
+}
+
+.menutren ul li a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+}
+
+.menutren {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+}
+
+img {
+    width: 100%;
+    height: 600px;
+}
+
+.noidung h1 {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: cadetblue;
+    padding: 75px 10px;
+    font-size: 30px;
+}

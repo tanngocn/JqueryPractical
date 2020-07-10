@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.noidung {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: rebeccapurple;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+}
+
+.noidung img.anhdemo {
+    height: 300px;
+    width: 300px;
+    transition: 3.0s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.noidung:hover .layer1 {
+    opacity: 0;
+}
+
+.noidung .layer1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(128, 128, 128, 0.46)
+}
+
+.noidung:hover .layer2 {
+    opacity: 1;
+    transition: 0.5s
+}
+
+.noidung .layer2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-image: -webkit-linear-gradient(45deg, rgba(204, 10, 10, 0.774) 30%, rgba(0, 128, 0, 0.205) 100%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.noidung h5.td_nd {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 6;
+    background-color: rgb(85, 32, 32);
+    color: black;
+    transition: 1s;
+    transform: rotateY(180deg);
+    transform-origin: 0% 0%;
+    opacity: 0;
+    font-size: 30px;
+    margin: 0;
+    border-right: 1px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.noidung:hover .td_nd {
+    opacity: 1;
+    transition: 1s;
+    transition-delay: 0.5s;
+    transform: rotateY(0deg);
+}
